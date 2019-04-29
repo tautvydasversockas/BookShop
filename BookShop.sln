@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BE712B75-F5F0-43FF-B4D6-6048C4C35FB2}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A55FF045-99A1-423F-AFBD-F43E0D802561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{66E8F8C3-E047-46B9-A728-22865156061E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Web", "BookShop.Web\BookShop.Web.csproj", "{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Domain", "BookShop.Domain\BookShop.Domain.csproj", "{7B58847D-F725-47B7-BE90-51813D4CE674}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Persistence", "BookShop.Persistence\BookShop.Persistence.csproj", "{72BD553C-DA7A-4898-BEAD-94B0F17BD390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B58847D-F725-47B7-BE90-51813D4CE674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B58847D-F725-47B7-BE90-51813D4CE674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B58847D-F725-47B7-BE90-51813D4CE674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B58847D-F725-47B7-BE90-51813D4CE674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BD553C-DA7A-4898-BEAD-94B0F17BD390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BD553C-DA7A-4898-BEAD-94B0F17BD390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BD553C-DA7A-4898-BEAD-94B0F17BD390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BD553C-DA7A-4898-BEAD-94B0F17BD390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A06C26E4-B0C4-47DE-8AAA-B41EF0563D7D} = {A55FF045-99A1-423F-AFBD-F43E0D802561}
+		{7B58847D-F725-47B7-BE90-51813D4CE674} = {A55FF045-99A1-423F-AFBD-F43E0D802561}
+		{72BD553C-DA7A-4898-BEAD-94B0F17BD390} = {A55FF045-99A1-423F-AFBD-F43E0D802561}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D845B62C-530B-460B-9827-9FC1F302BE13}
+	EndGlobalSection
+EndGlobal

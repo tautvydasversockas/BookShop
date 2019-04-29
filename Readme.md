@@ -1,1 +1,4 @@
-A book shop api using GraphQL.
+# BookShop
+
+A book shop api implemented with GraphQL.
+
